@@ -1,0 +1,14 @@
+function B = Padding (A,K);
+[r c] = size (A);
+[m n] = size (K);
+center = floor ((size(K)+1)/2);
+left = center(2)-1;
+right = n - center(2);
+top = center(1) - 1;
+bottom = m - center (1);
+Rep = zeros (r + top + bottom, c + left + right);
+for x = 1 + top : r + top
+    for y = 1 + left : c + left
+        Rep(x,y) = A (x-top, y-left);
+    end
+end
