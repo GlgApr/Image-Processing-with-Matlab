@@ -76,7 +76,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/GlgApr/Image-Processing-with-Matlab)
 
-This is my first project when trying to use borland delphi 7, if you want to contribute please. However, we apologize for using the git template, so not all files in this project are pushed.
+This is my first project when I learn Matlab, if you want to contribute please. However, we apologize for using the git template, so not all files in this project are pushed.
 If you need the full file, please contact the existing contact, thank you.
 
 ### ScreenShot
